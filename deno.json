@@ -5,7 +5,8 @@
   "tasks": {
     "dev": "deno run --allow-env --allow-sys --allow-run src/main.ts",
     "scrape": "deno run --allow-env --allow-net --allow-write src/scraper/index.ts",
-    "compile": "deno compile  --output dnsaur --no-check --allow-env --allow-sys --allow-run src/main.ts"
+    "compile": "deno compile  --output dnsaur --no-check --allow-env --allow-sys --allow-run src/main.ts",
+    "prerelease": "deno run compile && powershell ./bin/prerelease.ps1"
   },
   "imports": {
     "@cliffy/command": "jsr:@cliffy/command@^1.0.0-rc.7",
