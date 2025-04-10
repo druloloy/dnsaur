@@ -1,5 +1,5 @@
 import { disableDNSWindows, setDNSWindows } from './cmd/windows.ts';
-import { DNS } from './types.ts';
+import type { DNS } from './types.ts';
 import {
   inquireConnection,
   inquireExit,
