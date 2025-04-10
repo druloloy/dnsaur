@@ -1,0 +1,25 @@
+{
+  "name": "@druloloy/dnsaur",
+  "license": "MIT",
+  "version": "0.1.0",
+  "tasks": {
+    "dev": "deno run --allow-env --allow-sys --allow-run src/main.ts",
+    "scrape": "deno run --allow-env --allow-net --allow-write src/scraper/index.ts",
+    "compile": "deno compile  --output dnsaur --no-check --allow-env --allow-sys --allow-run src/main.ts"
+  },
+  "imports": {
+    "@cliffy/command": "jsr:@cliffy/command@^1.0.0-rc.7",
+    "@inquirer/prompts": "npm:@inquirer/prompts@^7.4.0",
+    "@std/assert": "jsr:@std/assert@1",
+    "chalk": "npm:chalk@^5.4.1",
+    "cheerio": "npm:cheerio@^1.0.0"
+  },
+  "fmt": {
+    "lineWidth": 80,
+    "semiColons": true,
+    "singleQuote": true,
+    "useTabs": false,
+    "exclude": ["bin/*"]
+  },
+  "exports": "./src/main.ts"
+}

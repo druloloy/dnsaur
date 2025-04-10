@@ -1,0 +1,1668 @@
+[
+  {
+    "id": 1,
+    "description": "AdGuard DNS is an alternative solution for ad blocking, privacy protection, and parental control. It provides the necessary number of protection features against online ads, trackers, and phishing, no matter what platform and device you use.",
+    "provider": "AdGuard DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "description": "These servers block ads, tracking, and phishing.",
+        "dns_ipv4": [
+          "94.140.14.14",
+          "94.140.15.15"
+        ],
+        "dns_ipv6": [
+          "2a10:50c0::ad1:ff",
+          "2a10:50c0::ad2:ff"
+        ],
+        "dns_https": "https://dns.adguard-dns.com/dns-query",
+        "dns_tls": "tls://dns.adguard-dns.com"
+      },
+      {
+        "type": "family-protection",
+        "description": "These servers provide the Default features + Blocking adult websites + Safe search.",
+        "dns_ipv4": [
+          "94.140.14.15",
+          "94.140.15.16"
+        ],
+        "dns_ipv6": [
+          "2a10:50c0::bad1:ff",
+          "2a10:50c0::bad2:ff"
+        ],
+        "dns_https": "https://family.adguard-dns.com/dns-query",
+        "dns_tls": "tls://family.adguard-dns.com"
+      },
+      {
+        "type": "non-filtering",
+        "description": "Each of these servers provides a secure and reliable connection, but unlike the \"Standard\" and \"Family Protection\" servers, they don't filter anything.",
+        "dns_ipv4": [
+          "94.140.14.140",
+          "94.140.14.141"
+        ],
+        "dns_ipv6": [
+          "2a10:50c0::1:ff",
+          "2a10:50c0::2:ff"
+        ],
+        "dns_https": "https://unfiltered.adguard-dns.com/dns-query",
+        "dns_tls": "tls://unfiltered.adguard-dns.com"
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 2,
+    "description": "Ali DNS is a free recursive DNS service that committed to providing fast, stable and secure DNS resolution for the majority of Internet users. It includes AliGuard facility to protect users from various attacks and threats.",
+    "provider": "Ali DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "223.5.5.5",
+          "223.6.6.6"
+        ],
+        "dns_ipv6": [
+          "2400:3200::1",
+          "2400:3200:baba::1"
+        ],
+        "dns_https": "https://dns.alidns.com/dns-query",
+        "dns_tls": "tls://dns.alidns.com"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 3,
+    "description": "BebasDNS is a free and neutral public resolver based in Indonesia which supports OpenNIC domain. Created by Komunitas Internet Netral Indonesia (KINI) to serve Indonesian user with free and neutral internet connection.",
+    "provider": "BebasDNS by BebasID​",
+    "dns": [
+      {
+        "type": "default-1",
+        "description": "This is the default variant of BebasDNS. This variant blocks ads, malware, and phishing domains.",
+        "dns_https": "https://dns.bebasid.com/dns-query",
+        "dns_tls": "tls://dns.bebasid.com:853"
+      },
+      {
+        "type": "unfiltered",
+        "description": "This variant doesn't filter anything.",
+        "dns_https": "https://dns.bebasid.com/unfiltered",
+        "dns_tls": "tls://unfiltered.dns.bebasid.com:853"
+      },
+      {
+        "type": "security",
+        "description": "This is the security/antivirus variant of BebasDNS. This variant only blocks malware, and phishing domains.",
+        "dns_https": "https://antivirus.bebasid.com/dns-query",
+        "dns_tls": "tls://antivirus.bebasid.com:853"
+      },
+      {
+        "type": "family",
+        "description": "This is the family variant of BebasDNS. This variant blocks pornography, gambling, hate site, blocks malware, and phishing domains.",
+        "dns_https": "https://internetsehat.bebasid.com/dns-query",
+        "dns_tls": "tls://internetsehat.bebasid.com:853"
+      },
+      {
+        "type": "family-with-ad-filtering",
+        "description": "This is the family variant of BebasDNS but with adblocker",
+        "dns_https": "https://internetsehat.bebasid.com/adblock",
+        "dns_tls": "tls://family-adblock.bebasid.com:853"
+      },
+      {
+        "type": "oisd-filter",
+        "description": "This is a custom BebasDNS variant with only OISD Big filter",
+        "dns_https": "https://dns.bebasid.com/dns-oisd",
+        "dns_tls": "tls://oisd.dns.bebasid.com:853"
+      },
+      {
+        "type": "hagezi-multi-normal-filter",
+        "description": "This is a custom BebasDNS variant with only Hagezi Multi Normal filter",
+        "dns_https": "https://dns.bebasid.com/dns-hagezi",
+        "dns_tls": "tls://hagezi.dns.bebasid.com:853"
+      }
+    ],
+    "dns_count": 7
+  },
+  {
+    "id": 4,
+    "description": "DNS is a global DNS resolution service provided by 0ms Group as an alternative to your current DNS provider.",
+    "provider": "0ms DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://0ms.dev/dns-query"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 5,
+    "description": "IPv6-based anycast DNS service with strong security capabilities and protection from spyware, malicious websites. It supports DNS64 to provide domain name resolution only for IPv6 users.",
+    "provider": "CFIEC Public DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv6": [
+          "240C::6666",
+          "240C::6644"
+        ],
+        "dns_https": "https://dns.cfiec.net/dns-query",
+        "dns_tls": "tls://dns.cfiec.net"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 6,
+    "description": "Cisco OpenDNS is a service which extends the DNS by incorporating features such as content filtering and phishing protection with a zero downtime.",
+    "provider": "Cisco OpenDNS​",
+    "dns": [
+      {
+        "type": "standard",
+        "description": "DNS servers with custom filtering that protects your device from malware.",
+        "dns_ipv4": [
+          "208.67.222.222",
+          "208.67.220.220"
+        ],
+        "dns_ipv6": [
+          "2620:119:35::35",
+          "2620:119:53::53"
+        ],
+        "dns_https": "https://doh.opendns.com/dns-query",
+        "dns_tls": "tls://dns.opendns.com"
+      },
+      {
+        "type": "familyshield",
+        "description": "OpenDNS servers that provide adult content blocking.",
+        "dns_ipv4": [
+          "208.67.222.123",
+          "208.67.220.123"
+        ],
+        "dns_https": "https://doh.familyshield.opendns.com/dns-query",
+        "dns_tls": "tls://familyshield.opendns.com"
+      },
+      {
+        "type": "sandbox",
+        "description": "Non-filtering OpenDNS servers.",
+        "dns_ipv4": [
+          "208.67.222.2",
+          "208.67.220.2"
+        ],
+        "dns_ipv6": [
+          ""
+        ],
+        "dns_https": "https://doh.sandbox.opendns.com/dns-query",
+        "dns_tls": "tls://sandbox.opendns.com"
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 7,
+    "description": "CleanBrowsing is a DNS service which provides customizable filtering. This service offers a safe way to browse the web without inappropriate content.",
+    "provider": "CleanBrowsing​",
+    "dns": [
+      {
+        "type": "family-filter",
+        "description": "Blocks access to all adult, pornographic and explicit sites, including proxy & VPN domains and mixed content sites.",
+        "dns_ipv4": [
+          "185.228.168.168",
+          "185.228.169.168"
+        ],
+        "dns_ipv6": [
+          "2a0d:2a00:1::",
+          "2a0d:2a00:2::"
+        ],
+        "dns_https": "https://doh.cleanbrowsing.org/doh/family-filter/",
+        "dns_tls": "tls://family-filter-dns.cleanbrowsing.org"
+      },
+      {
+        "type": "adult-filter",
+        "description": "Less restrictive than the Family filter, it only blocks access to adult content and malicious and phishing domains.",
+        "dns_ipv4": [
+          "185.228.168.10",
+          "185.228.169.11"
+        ],
+        "dns_ipv6": [
+          "2a0d:2a00:1::1",
+          "2a0d:2a00:2::1"
+        ],
+        "dns_https": "https://doh.cleanbrowsing.org/doh/adult-filter/",
+        "dns_tls": "tls://adult-filter-dns.cleanbrowsing.org"
+      },
+      {
+        "type": "security-filter",
+        "description": "Blocks phishing, spam and malicious domains.",
+        "dns_ipv4": [
+          "185.228.168.9",
+          "185.228.169.9"
+        ],
+        "dns_ipv6": [
+          "2a0d:2a00:1::2",
+          "2a0d:2a00:2::2"
+        ],
+        "dns_https": "https://doh.cleanbrowsing.org/doh/security-filter/",
+        "dns_tls": "tls://security-filter-dns.cleanbrowsing.org"
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 8,
+    "description": "Cloudflare DNS is a free and fast DNS service which functions as a recursive name server providing domain name resolution for any host on the Internet.",
+    "provider": "Cloudflare DNS​",
+    "dns": [
+      {
+        "type": "standard-1",
+        "description": "",
+        "dns_ipv4": [
+          "1.1.1.1",
+          "1.0.0.1"
+        ],
+        "dns_ipv6": [
+          "2606:4700:4700::1111",
+          "2606:4700:4700::1001"
+        ],
+        "dns_https": "https://dns.cloudflare.com/dns-query",
+        "dns_tls": "tls://one.one.one.one"
+      },
+      {
+        "type": "malware-blocking-only",
+        "description": "",
+        "dns_ipv4": [
+          "1.1.1.2",
+          "1.0.0.2"
+        ],
+        "dns_ipv6": [
+          "2606:4700:4700::1112",
+          "2606:4700:4700::1002"
+        ],
+        "dns_https": "https://security.cloudflare-dns.com/dns-query",
+        "dns_tls": "tls://security.cloudflare-dns.com"
+      },
+      {
+        "type": "malware-and-adult-content-blocking",
+        "description": "",
+        "dns_ipv4": [
+          "1.1.1.3",
+          "1.0.0.3"
+        ],
+        "dns_ipv6": [
+          "2606:4700:4700::1113",
+          "2606:4700:4700::1003"
+        ],
+        "dns_https": "https://family.cloudflare-dns.com/dns-query",
+        "dns_tls": "tls://family.cloudflare-dns.com"
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 9,
+    "description": "Comodo Secure DNS is a domain name resolution service that resolves your DNS requests through worldwide network of DNS servers. Removes excessive ads and protects from phishing and spyware.",
+    "provider": "Comodo Secure DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "8.26.56.26",
+          "8.20.247.20"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 10,
+    "description": "ControlD is a customizable DNS service with proxy capabilities. This means it not only blocks things (ads, porn, etc.), but can also unblock websites and services.",
+    "provider": "ControlD​",
+    "dns": [
+      {
+        "type": "non-filtering-1",
+        "description": "",
+        "dns_ipv4": [
+          "76.76.2.0",
+          "76.76.10.0"
+        ],
+        "dns_https": "https://freedns.controld.com/p0",
+        "dns_tls": ""
+      },
+      {
+        "type": "block-malware",
+        "description": "",
+        "dns_ipv4": [
+          "76.76.2.1"
+        ],
+        "dns_https": "https://freedns.controld.com/p1",
+        "dns_tls": "tls://p1.freedns.controld.com"
+      },
+      {
+        "type": "block-malware--ads",
+        "description": "",
+        "dns_ipv4": [
+          "76.76.2.2"
+        ],
+        "dns_https": "https://freedns.controld.com/p2",
+        "dns_tls": "tls://p2.freedns.controld.com"
+      },
+      {
+        "type": "block-malware--ads--social",
+        "description": "",
+        "dns_ipv4": [
+          "76.76.2.3"
+        ],
+        "dns_https": "https://freedns.controld.com/p3",
+        "dns_tls": "tls://p3.freedns.controld.com"
+      }
+    ],
+    "dns_count": 4
+  },
+  {
+    "id": 11,
+    "description": "DeCloudUs DNS is a DNS service that lets you block anything you wish while by default protecting you and your family from ads, trackers, malware, phishing, malicious sites, and much more.",
+    "provider": "DeCloudUs DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://dns.decloudus.com/dns-query",
+        "dns_tls": "tls://dns.decloudus.com"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 12,
+    "description": "A collaborative open project to promote, implement, and deploy DNS Privacy.",
+    "provider": "DNS Privacy​",
+    "dns": [
+      {
+        "type": "dns-servers-run-by-the-stubby-developers",
+        "description": "",
+        "dns_tls": "tls://dnsovertls1.sinodun.com"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 13,
+    "description": "FutureDNS is a privacy-focused DNS service that blocks ads, trackers, and malware. It supports both standard DNS and encrypted protocols while maintaining a strict no-logging policy.",
+    "provider": "FutureDNS​",
+    "dns": [
+      {
+        "type": "servers",
+        "description": "",
+        "dns_ipv4": [
+          "5.161.67.176"
+        ],
+        "dns_ipv6": [
+          "2a01:4ff:f0:87a2::"
+        ],
+        "dns_https": "https://dns.us.futuredns.eu.org/dns-query",
+        "dns_tls": "tls://dns.us.futuredns.eu.org"
+      },
+      {
+        "type": "other-dns-servers-with-no-logging-policy",
+        "description": "",
+        "dns_tls": "tls://dot.securedns.eu"
+      },
+      {
+        "type": "dns-servers-with-minimal-loggingrestrictions",
+        "description": "These servers use some logging, self-signed certs or no support for strict mode.",
+        "dns_tls": ""
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 14,
+    "description": "DNS.SB provides free DNS service without logging and with DNSSEC enabled.",
+    "provider": "DNS.SB​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "185.222.222.222",
+          "45.11.45.11"
+        ],
+        "dns_ipv6": [
+          "2a09::",
+          "2a11::"
+        ],
+        "dns_https": "https://doh.dns.sb/dns-query",
+        "dns_tls": "tls://dot.sb"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 15,
+    "description": "DNSPod Public DNS+ is a privacy-friendly DNS provider with years of experience in domain name resolution services development, it aims to provide users more rapid, accurate and stable recursive resolution service.",
+    "provider": "DNSPod Public DNS+​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "119.29.29.29"
+        ],
+        "dns_ipv6": [
+          "2402:4e00::"
+        ],
+        "dns_https": "https://sm2.doh.pub/dns-query",
+        "dns_tls": "tls://dot.pub"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 16,
+    "description": "DNSWatchGO is a DNS service by WatchGuard that prevents people from interacting with malicious content.",
+    "provider": "DNSWatchGO​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "54.174.40.213",
+          "52.3.100.184"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 17,
+    "description": "dns0.eu is a free, sovereign and GDPR-compliant recursive DNS resolver with a strong focus on security to protect the citizens and organizations of the European Union.",
+    "provider": "dns0.eu​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "193.110.81.0",
+          "185.253.5.0"
+        ],
+        "dns_https": "https://zero.dns0.eu/",
+        "dns_tls": "tls://zero.dns0.eu"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 18,
+    "description": "Dyn DNS is a free alternative DNS service by Dyn.",
+    "provider": "Dyn DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "216.146.35.35",
+          "216.146.36.36"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 19,
+    "description": "Freenom World is a free anonymous DNS resolver by Freenom World.",
+    "provider": "Freenom World​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "80.80.80.80",
+          "80.80.81.81"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 20,
+    "description": "Google DNS is a free, global DNS resolution service that you can use as an alternative to your current DNS provider.",
+    "provider": "Google DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "8.8.8.8",
+          "8.8.4.4"
+        ],
+        "dns_ipv6": [
+          "2001:4860:4860::8888",
+          "2001:4860:4860::8844"
+        ],
+        "dns_https": "https://dns.google/dns-query",
+        "dns_tls": "tls://dns.google"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 21,
+    "description": "Hurricane Electric Public Recursor is a free alternative DNS service by Hurricane Electric with anycast.",
+    "provider": "Hurricane Electric Public Recursor​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "74.82.42.42"
+        ],
+        "dns_ipv6": [
+          "2001:470:20::2"
+        ],
+        "dns_https": "https://ordns.he.net/dns-query",
+        "dns_tls": "tls://ordns.he.net"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 22,
+    "description": "Mullvad provides publicly accessible DNS with QNAME minimization, endpoints located in Germany, Singapore, Sweden, United Kingdom and United States (Dallas & New York).",
+    "provider": "Mullvad​",
+    "dns": [
+      {
+        "type": "non-filtering-2",
+        "description": "",
+        "dns_https": "https://dns.mullvad.net/dns-query",
+        "dns_tls": "tls://dns.mullvad.net"
+      },
+      {
+        "type": "ad-blocking",
+        "description": "",
+        "dns_https": "https://adblock.dns.mullvad.net/dns-query",
+        "dns_tls": "tls://adblock.dns.mullvad.net"
+      },
+      {
+        "type": "ad--malware-blocking",
+        "description": "",
+        "dns_https": "https://base.dns.mullvad.net/dns-query",
+        "dns_tls": "tls://base.dns.mullvad.net"
+      },
+      {
+        "type": "ad--malware--social-media-blocking",
+        "description": "",
+        "dns_https": "https://extended.dns.mullvad.net/dns-query",
+        "dns_tls": "tls://extended.dns.mullvad.net"
+      },
+      {
+        "type": "ad--malware--adult--gambling-blocking",
+        "description": "",
+        "dns_https": "https://family.dns.mullvad.net/dns-query",
+        "dns_tls": "tls://family.dns.mullvad.net"
+      },
+      {
+        "type": "ad--malware--adult--gambling--social-media-blocking",
+        "description": "",
+        "dns_https": "https://all.dns.mullvad.net/dns-query",
+        "dns_tls": "tls://all.dns.mullvad.net"
+      }
+    ],
+    "dns_count": 6
+  },
+  {
+    "id": 23,
+    "description": "Nawala Childprotection DNS is an anycast Internet filtering system that protects children from inappropriate websites and abusive contents.",
+    "provider": "Nawala Childprotection DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "180.131.144.144",
+          "180.131.145.145"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 24,
+    "description": "Neustar Recursive DNS is a free cloud-based recursive DNS service that delivers fast and reliable access to sites and online applications with built-in security and threat intelligence.",
+    "provider": "Neustar Recursive DNS​",
+    "dns": [
+      {
+        "type": "reliability--performance-1",
+        "description": "These servers provide reliable and fast DNS lookups without blocking any specific categories.",
+        "dns_ipv4": [
+          "156.154.70.1",
+          "156.154.71.1"
+        ],
+        "dns_ipv6": [
+          "2610:a1:1018::1",
+          "2610:a1:1019::1"
+        ]
+      },
+      {
+        "type": "reliability--performance-2",
+        "description": "These servers provide reliable and fast DNS lookups without blocking any specific categories and also prevent redirecting NXDomain (non-existent domain) responses to landing pages.",
+        "dns_ipv4": [
+          "156.154.70.5",
+          "156.154.71.5"
+        ],
+        "dns_ipv6": [
+          "2610:a1:1018::5",
+          "2610:a1:1019::5"
+        ]
+      },
+      {
+        "type": "threat-protection",
+        "description": "These servers provide protection against malicious domains and also include \"Reliability & Performance\" features.",
+        "dns_ipv4": [
+          "156.154.70.2",
+          "156.154.71.2"
+        ],
+        "dns_ipv6": [
+          "2610:a1:1018::2",
+          "2610:a1:1019::2"
+        ]
+      },
+      {
+        "type": "family-secure",
+        "description": "These servers provide adult content blocking and also include \"Reliability & Performance\" + \"Threat Protection\" features.",
+        "dns_ipv4": [
+          "156.154.70.3",
+          "156.154.71.3"
+        ],
+        "dns_ipv6": [
+          "2610:a1:1018::3",
+          "2610:a1:1019::3"
+        ]
+      },
+      {
+        "type": "business-secure",
+        "description": "These servers provide blocking unwanted and time-wasting content and also include \"Reliability & Performance\" + \"Threat Protection\" + \"Family Secure\" features.",
+        "dns_ipv4": [
+          "156.154.70.4",
+          "156.154.71.4"
+        ],
+        "dns_ipv6": [
+          "2610:a1:1018::4",
+          "2610:a1:1019::4"
+        ]
+      }
+    ],
+    "dns_count": 5
+  },
+  {
+    "id": 25,
+    "description": "NextDNS provides publicly accessible non-filtering resolvers without logging in addition to its freemium configurable filtering resolvers with optional logging.",
+    "provider": "NextDNS​",
+    "dns": [
+      {
+        "type": "ultra-low-latency",
+        "description": "",
+        "dns_https": "https://dns.nextdns.io",
+        "dns_tls": "tls://dns.nextdns.io"
+      },
+      {
+        "type": "anycast",
+        "description": "",
+        "dns_https": "https://anycast.dns.nextdns.io",
+        "dns_tls": "tls://anycast.dns.nextdns.io"
+      }
+    ],
+    "dns_count": 2
+  },
+  {
+    "id": 26,
+    "description": "OpenBLD.net DNS — Anycast/GeoDNS DNS-over-HTTPS, DNS-over-TLS resolvers with blocking: advertising, tracking, adware, malware, malicious activities and phishing companies, blocks ~1M domains. Has 24h/48h logs for DDoS/Flood attack mitigation.",
+    "provider": "OpenBLD.net DNS​",
+    "dns": [
+      {
+        "type": "adaptive-filtering-ada",
+        "description": "Recommended for most users, very flexible filtering with blocking most ads networks, ad-tracking, malware and phishing domains.",
+        "dns_https": "https://ada.openbld.net/dns-query",
+        "dns_tls": "tls://ada.openbld.net"
+      },
+      {
+        "type": "strict-filtering-ric",
+        "description": "More strictly filtering policies with blocking — ads, marketing, tracking, clickbait, coinhive, malicious, and phishing domains.",
+        "dns_https": "https://ric.openbld.net/dns-query",
+        "dns_tls": "tls://ric.openbld.net"
+      }
+    ],
+    "dns_count": 2
+  },
+  {
+    "id": 27,
+    "description": "Quad9 DNS is a free, recursive, anycast DNS platform that provides high-performance, privacy, and security protection from phishing and spyware. Quad9 servers don't provide a censoring component.",
+    "provider": "Quad9 DNS​",
+    "dns": [
+      {
+        "type": "standard-2",
+        "description": "Regular DNS servers which provide protection from phishing and spyware. They include blocklists, DNSSEC validation, and other security features.",
+        "dns_ipv4": [
+          "9.9.9.9",
+          "149.112.112.112"
+        ],
+        "dns_ipv6": [
+          ""
+        ],
+        "dns_https": "https://dns.quad9.net/dns-query",
+        "dns_tls": "tls://dns.quad9.net"
+      },
+      {
+        "type": "unsecured",
+        "description": "Unsecured DNS servers don't provide security blocklists, DNSSEC, or EDNS Client Subnet.",
+        "dns_ipv4": [
+          "9.9.9.10",
+          "149.112.112.10"
+        ],
+        "dns_ipv6": [
+          ""
+        ],
+        "dns_https": "https://dns10.quad9.net/dns-query",
+        "dns_tls": "tls://dns10.quad9.net"
+      },
+      {
+        "type": "ecs-support",
+        "description": "EDNS Client Subnet is a method that includes components of end-user IP address data in requests that are sent to authoritative DNS servers. It provides security blocklist, DNSSEC, EDNS Client Subnet.",
+        "dns_ipv4": [
+          "9.9.9.11",
+          "149.112.112.11"
+        ],
+        "dns_ipv6": [
+          ""
+        ],
+        "dns_https": "https://dns11.quad9.net/dns-query",
+        "dns_tls": "tls://dns11.quad9.net"
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 28,
+    "description": "Quadrant Security offers DoH and DoT servers for the general public with no logging or filtering.",
+    "provider": "Quadrant Security​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://doh.qis.io/dns-query",
+        "dns_tls": "tls://dns-tls.qis.io"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 29,
+    "description": "Rabbit DNS is a privacy-focused DoH service that doesn't collect any user data.",
+    "provider": "Rabbit DNS​",
+    "dns": [
+      {
+        "type": "non-filtering-3",
+        "description": "",
+        "dns_https": "https://dns.rabbitdns.org/dns-query"
+      },
+      {
+        "type": "security-filtering",
+        "description": "",
+        "dns_https": "https://security.rabbitdns.org/dns-query"
+      },
+      {
+        "type": "family-filtering",
+        "description": "",
+        "dns_https": "https://family.rabbitdns.org/dns-query"
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 30,
+    "description": "RethinkDNS provides DNS-over-HTTPS service running as Cloudflare Worker and DNS-over-TLS service running as Fly.io Worker with configurable blocklists.",
+    "provider": "RethinkDNS​",
+    "dns": [
+      {
+        "type": "non-filtering-4",
+        "description": "",
+        "dns_https": "https://basic.rethinkdns.com/",
+        "dns_tls": "tls://max.rethinkdns.com"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 31,
+    "description": "Safe DNS is a global anycast network which consists of servers located throughout the world — both Americas, Europe, Africa, Australia, and the Far East to ensure a fast and reliable DNS resolving from any point worldwide.",
+    "provider": "Safe DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "195.46.39.39",
+          "195.46.39.40"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 32,
+    "description": "Safe Surfer is a DNS service that blocks 50+ categories like porn, ads, malware, and popular social media sites making web surfing safer.",
+    "provider": "Safe Surfer​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "104.155.237.225",
+          "104.197.28.121"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 33,
+    "description": "360 Secure DNS is a industry-leading recursive DNS service with advanced network security threat protection.",
+    "provider": "360 Secure DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "123.125.81.6",
+          "140.207.198.6"
+        ],
+        "dns_https": "https://doh.360.cn/dns-query",
+        "dns_tls": "tls://dot.360.cn"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 34,
+    "description": "Verisign Public DNS is a free DNS service that offers improved DNS stability and security over other alternatives. Verisign respects users' privacy: they neither sell public DNS data to third parties nor redirect users' queries to serve them ads.",
+    "provider": "Verisign Public DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "64.6.64.6",
+          "64.6.65.6"
+        ],
+        "dns_ipv6": [
+          "2620:74:1b::1:1",
+          "2620:74:1c::2:2"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 35,
+    "description": "Wikimedia DNS is a caching, recursive, public DoH and DoT resolver service that is run and managed by the Site Reliability Engineering (Traffic) team at the Wikimedia Foundation on all six Wikimedia data centers with anycast.",
+    "provider": "Wikimedia DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://wikimedia-dns.org/dns-query",
+        "dns_tls": ""
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 36,
+    "description": "Applied Privacy DNS operates DNS privacy services to help protect DNS traffic and to help diversify the DNS resolver landscape offering modern protocols.",
+    "provider": "Applied Privacy DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://doh.applied-privacy.net/query",
+        "dns_tls": "tls://dot1.applied-privacy.net"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 37,
+    "description": "ByteDance Public DNS is a free alternative DNS service by ByteDance at China. The only DNS currently provided by ByteDance supports IPV4. DOH, DOT, DOQ, and other encrypted DNS services will be launched soon.",
+    "provider": "ByteDance Public DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "180.184.1.1",
+          "180.184.2.2"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 38,
+    "description": "CIRA Shield DNS protects against theft of personal and financial data. Keep viruses, ransomware, and other malware out of your home.",
+    "provider": "CIRA Canadian Shield DNS​",
+    "dns": [
+      {
+        "type": "private",
+        "description": "In \"Private\" mode, DNS resolution only.",
+        "dns_ipv4": [
+          "149.112.121.10",
+          "149.112.122.10"
+        ],
+        "dns_ipv6": [
+          "2620:10A:80BB::10",
+          "2620:10A:80BC::10"
+        ],
+        "dns_https": "https://private.canadianshield.cira.ca/dns-query",
+        "dns_tls": "tls://private.canadianshield.cira.ca"
+      },
+      {
+        "type": "protected",
+        "description": "In \"Protected\" mode, malware and phishing protection.",
+        "dns_ipv4": [
+          "149.112.121.20",
+          "149.112.122.20"
+        ],
+        "dns_ipv6": [
+          "2620:10A:80BB::20",
+          "2620:10A:80BC::20"
+        ],
+        "dns_https": "https://protected.canadianshield.cira.ca/dns-query",
+        "dns_tls": "tls://protected.canadianshield.cira.ca"
+      },
+      {
+        "type": "family-1",
+        "description": "In \"Family\" mode, Protected + blocking adult content.",
+        "dns_ipv4": [
+          "149.112.121.30",
+          "149.112.122.30"
+        ],
+        "dns_ipv6": [
+          "2620:10A:80BB::30",
+          "2620:10A:80BC::30"
+        ],
+        "dns_https": "https://family.canadianshield.cira.ca/dns-query",
+        "dns_tls": "tls://family.canadianshield.cira.ca"
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 39,
+    "description": "Comss.one DNS is a fast and secure DNS service with protection against ads, tracking, and phishing.",
+    "provider": "Comss.one DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://dns.controld.com/comss",
+        "dns_tls": "tls://comss.dns.controld.com"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 40,
+    "description": "CZ.NIC ODVR CZ.NIC ODVR are Open DNSSEC Validating Resolvers. CZ.NIC neither collect any personal data nor gather information on pages where devices sends personal data.",
+    "provider": "CZ.NIC ODVR​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "193.17.47.1",
+          "185.43.135.1"
+        ],
+        "dns_ipv6": [
+          "2001:148f:ffff::1",
+          "2001:148f:fffe::1"
+        ],
+        "dns_https": "https://odvr.nic.cz/doh",
+        "dns_tls": "tls://odvr.nic.cz"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 41,
+    "description": "Digitale Gesellschaft is a public resolver operated by the Digital Society. Hosted in Zurich, Switzerland.",
+    "provider": "Digitale Gesellschaft DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://dns.digitale-gesellschaft.ch/dns-query",
+        "dns_tls": "tls://dns.digitale-gesellschaft.ch"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 42,
+    "description": "DNS for Family aims to block adult websites. It enables children and adults to surf the Internet safely without worrying about being tracked by malicious websites.",
+    "provider": "DNS for Family​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://dns-doh.dnsforfamily.com/dns-query",
+        "dns_tls": "tls://dns-dot.dnsforfamily.com",
+        "dns_ipv4": [
+          "94.130.180.225",
+          "78.47.64.161"
+        ],
+        "dns_ipv6": [
+          "2a01:4f8:1c0c:40db::1",
+          "2a01:4f8:1c17:4df8::1"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 43,
+    "description": "Restena DNS servers provided by Restena Foundation.",
+    "provider": "Fondation Restena DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://kaitain.restena.lu/dns-query",
+        "dns_tls": "tls://kaitain.restena.lu"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 44,
+    "description": "114DNS is a professional and high-reliability DNS service.",
+    "provider": "114DNS​",
+    "dns": [
+      {
+        "type": "normal",
+        "description": "Block ads and annoying websites.",
+        "dns_ipv4": [
+          "114.114.114.114",
+          "114.114.115.115"
+        ]
+      },
+      {
+        "type": "safe",
+        "description": "Blocks phishing, malicious and other unsafe websites.",
+        "dns_ipv4": [
+          "114.114.114.119",
+          "114.114.115.119"
+        ]
+      },
+      {
+        "type": "family-2",
+        "description": "These servers block adult websites and inappropriate contents.",
+        "dns_ipv4": [
+          "114.114.114.110",
+          "114.114.115.110"
+        ]
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 45,
+    "description": "IIJ.JP is a public DNS service operated by Internet Initiative Japan. It also blocks child abuse content.",
+    "provider": "IIJ.JP DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://public.dns.iij.jp/dns-query",
+        "dns_tls": "tls://public.dns.iij.jp"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 46,
+    "description": "JupitrDNS is a free security-focused recursive DNS service that blocks malware. It has DNSSEC support and does not store logs.",
+    "provider": "JupitrDNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "155.248.232.226"
+        ],
+        "dns_https": "https://dns.jupitrdns.com/dns-query",
+        "dns_tls": "tls://dns.jupitrdns.com"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 47,
+    "description": "LibreDNS is a public encrypted DNS service run by LibreOps.",
+    "provider": "LibreDNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "88.198.92.222"
+        ],
+        "dns_https": "https://doh.libredns.gr/ads",
+        "dns_tls": "tls://dot.libredns.gr"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 48,
+    "description": "OneDNS is a secure, fast, free niche DNS service with malicious domains blocking facility.",
+    "provider": "OneDNS​",
+    "dns": [
+      {
+        "type": "pure-edition",
+        "description": "",
+        "dns_ipv4": [
+          "117.50.10.10",
+          "52.80.52.52"
+        ],
+        "dns_ipv6": [
+          "2400:7fc0:849e:200::8",
+          "2404:c2c0:85d8:901::8"
+        ],
+        "dns_https": "https://doh-pure.onedns.net/dns-query",
+        "dns_tls": "tls://dot-pure.onedns.net"
+      },
+      {
+        "type": "block-edition",
+        "description": "",
+        "dns_ipv4": [
+          "52.80.66.66",
+          "117.50.22.22"
+        ],
+        "dns_ipv6": [
+          "2400:7fc0:849e:200::4",
+          "2404:c2c0:85d8:901::4"
+        ],
+        "dns_https": "https://doh.onedns.net/dns-query",
+        "dns_tls": "tls://dot.onedns.net"
+      },
+      {
+        "type": "family-edition",
+        "description": "",
+        "dns_ipv4": [
+          "117.50.60.30",
+          "52.80.60.30"
+        ]
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 49,
+    "description": "OpenNIC DNS is a free alternative DNS service by OpenNIC Project.",
+    "provider": "OpenNIC DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "217.160.70.42"
+        ],
+        "dns_ipv6": [
+          "2001:8d8:1801:86e7::1"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 50,
+    "description": "Quad101 is a free alternative DNS service without logging by TWNIC (Taiwan Network Information Center).",
+    "provider": "Quad101​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "101.101.101.101",
+          "101.102.103.104"
+        ],
+        "dns_ipv6": [
+          "2001:de4::101",
+          "2001:de4::102"
+        ],
+        "dns_https": "https://dns.twnic.tw/dns-query",
+        "dns_tls": "tls://101.101.101.101"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 51,
+    "description": "SkyDNS solutions for content filtering and internet security.",
+    "provider": "SkyDNS RU​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "193.58.251.251"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 52,
+    "description": "SWITCH DNS is a Swiss public DNS service provided by switch.ch.",
+    "provider": "SWITCH DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          ""
+        ],
+        "dns_ipv6": [
+          ""
+        ],
+        "dns_https": "https://dns.switch.ch/dns-query",
+        "dns_tls": "tls://dns.switch.ch"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 53,
+    "description": "UK DNS Privacy Project is a public DNS service based in the United Kingdom with no tracking, no logging, DNSSEC enabled",
+    "provider": "UK DNS Privacy Project​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "209.250.227.42",
+          "64.176.190.82"
+        ],
+        "dns_ipv6": [
+          "2001:19f0:7400:13c7:5400:05ff:fe40:d1ad"
+        ],
+        "dns_https": "https://resolver.dnsprivacy.org.uk/dns-query",
+        "dns_tls": "tls://resolver.dnsprivacy.org.uk"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 54,
+    "description": "Xstl DNS is a public DNS service based in South Korea that doesn't log the user's IP. Ads & trackers are blocked.",
+    "provider": "Xstl DNS​",
+    "dns": [
+      {
+        "type": "sk-broadband",
+        "description": "",
+        "dns_https": "https://dns.seia.io/dns-query",
+        "dns_tls": "tls://dns.seia.io"
+      },
+      {
+        "type": "oracle-cloud-south-korea",
+        "description": "",
+        "dns_https": "https://secondary.dns.seia.io/dns-query",
+        "dns_tls": "tls://secondary.dns.seia.io"
+      }
+    ],
+    "dns_count": 2
+  },
+  {
+    "id": 55,
+    "description": "Yandex.DNS is a free recursive DNS service. Yandex.DNS' servers are located in Russia, CIS countries, and Western Europe. Users' requests are processed by the nearest data center which provides high connection speeds.",
+    "provider": "Yandex DNS​",
+    "dns": [
+      {
+        "type": "basic",
+        "description": "In \"Basic\" mode, there is no traffic filtering.",
+        "dns_ipv4": [
+          "77.88.8.8",
+          "77.88.8.1"
+        ],
+        "dns_ipv6": [
+          "2a02:6b8::feed:0ff",
+          "2a02:6b8:0:1::feed:0ff"
+        ],
+        "dns_https": "https://common.dot.dns.yandex.net/dns-query",
+        "dns_tls": "tls://common.dot.dns.yandex.net"
+      },
+      {
+        "type": "safe-1",
+        "description": "In \"Safe\" mode, protection from infected and fraudulent sites is provided.",
+        "dns_ipv4": [
+          "77.88.8.88",
+          "77.88.8.2"
+        ],
+        "dns_ipv6": [
+          "2a02:6b8::feed:bad",
+          "2a02:6b8:0:1::feed:bad"
+        ],
+        "dns_https": "https://safe.dot.dns.yandex.net/dns-query",
+        "dns_tls": "tls://safe.dot.dns.yandex.net"
+      },
+      {
+        "type": "family-3",
+        "description": "In \"Family\" mode, protection from infected, fraudulent and adult sites is provided.",
+        "dns_ipv4": [
+          "77.88.8.3",
+          "77.88.8.7"
+        ],
+        "dns_ipv6": [
+          "2a02:6b8::feed:a11",
+          "2a02:6b8:0:1::feed:a11"
+        ],
+        "dns_https": "https://family.dot.dns.yandex.net/dns-query",
+        "dns_tls": "tls://family.dot.dns.yandex.net"
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 56,
+    "description": "AhaDNS A zero-logging and ad-blocking DNS service provided by Fredrik Pettersson.",
+    "provider": "AhaDNS​",
+    "dns": [
+      {
+        "type": "netherlands",
+        "description": "",
+        "dns_ipv4": [
+          "5.2.75.75"
+        ],
+        "dns_ipv6": [
+          "2a04:52c0:101:75::75"
+        ],
+        "dns_https": "https://doh.nl.ahadns.net/dns-query",
+        "dns_tls": "tls://dot.nl.ahadns.net"
+      },
+      {
+        "type": "los-angeles",
+        "description": "",
+        "dns_ipv4": [
+          "45.67.219.208"
+        ],
+        "dns_ipv6": [
+          "2a04:bdc7:100:70::70"
+        ],
+        "dns_https": "https://doh.la.ahadns.net/dns-query",
+        "dns_tls": "tls://dot.la.ahadns.net"
+      }
+    ],
+    "dns_count": 2
+  },
+  {
+    "id": 57,
+    "description": "Arapurayil is a personal DNS service hosted in Mumbai, India.",
+    "provider": "Arapurayil​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://dns.arapurayil.com/dns-query"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 58,
+    "description": "Captnemo DNS is a server running off of a Digital Ocean droplet in BLR1 region. Maintained by Abhay Rana aka Nemo.",
+    "provider": "Captnemo DNS​",
+    "dns": [
+      {
+        "type": "default"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 59,
+    "description": "Dandelion Sprout's Official DNS Server is a personal DNS service hosted in Trondheim, Norway, using an AdGuard Home infrastructure.",
+    "provider": "Dandelion Sprout's Official DNS Server​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://dandelionsprout.asuscomm.com:2501/dns-query",
+        "dns_tls": "tls://dandelionsprout.asuscomm.com:853",
+        "dns_ipv4": [
+          ""
+        ],
+        "dns_ipv6": [
+          ""
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 60,
+    "description": "DNS Forge is a redundant DNS resolver with an ad blocker and no logging provided by adminforge.",
+    "provider": "DNS Forge​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "176.9.93.198",
+          "176.9.1.117"
+        ],
+        "dns_ipv6": [
+          "2a01:4f8:151:34aa::198",
+          "2a01:4f8:141:316d::117"
+        ],
+        "dns_https": "https://dnsforge.de/dns-query",
+        "dns_tls": "tls://dnsforge.de"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 61,
+    "description": "",
+    "provider": "dnswarden​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_tls": "",
+        "dns_https": "https://dns.dnswarden.com/uncensored"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 62,
+    "description": "FFMUC free DNS servers provided by Freifunk München.",
+    "provider": "FFMUC DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_tls": "tls://dot.ffmuc.net",
+        "dns_https": "https://doh.ffmuc.net/dns-query"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 63,
+    "description": "fvz DNS is a Fusl's public primary OpenNIC Tier2 Anycast DNS Resolver.",
+    "provider": "fvz DNS​",
+    "dns": [
+      {
+        "type": "default"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 64,
+    "description": "ibksturm DNS testing servers provided by ibksturm. OPENNIC, DNSSEC, no filtering, no logging.",
+    "provider": "ibksturm DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_tls": "tls://ibksturm.synology.me",
+        "dns_https": "https://ibksturm.synology.me/dns-query"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 65,
+    "description": "Lelux.fi is run by Elias Ojala, Finland.",
+    "provider": "Lelux DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://resolver-eu.lelux.fi/dns-query",
+        "dns_tls": "tls://resolver-eu.lelux.fi"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 66,
+    "description": "Marbled Fennec Networks is hosting DNS resolvers that are capable of resolving both OpenNIC and ICANN domains",
+    "provider": "Marbled Fennec​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_https": "https://dns.marbledfennec.net/dns-query",
+        "dns_tls": "tls://dns.marbledfennec.net"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 67,
+    "description": "momou! DNS provides DoH & DoT resolvers with three levels of filtering",
+    "provider": "momou! DNS​",
+    "dns": [
+      {
+        "type": "standard-3",
+        "description": "Blocks ads, trackers, and malware",
+        "dns_https": "https://dns.momou.ch/dns-query",
+        "dns_tls": "tls://dns.momou.ch"
+      },
+      {
+        "type": "kids",
+        "description": "Kids-friendly filter that also blocks ads, trackers, and malware",
+        "dns_https": "https://dns.momou.ch/dns-query/kids",
+        "dns_tls": "tls://kids.dns.momou.ch"
+      },
+      {
+        "type": "unfiltered-1",
+        "description": "",
+        "dns_https": "https://dns.momou.ch/dns-query/unfiltered",
+        "dns_tls": "tls://unfiltered.dns.momou.ch"
+      }
+    ],
+    "dns_count": 3
+  },
+  {
+    "id": 68,
+    "description": "OSZX DNS is a small Ad-Blocking DNS hobby project.",
+    "provider": "OSZX DNS​",
+    "dns": [
+      {
+        "type": "oszx-dns-1",
+        "description": "This service ia a small ad blocking DNS hobby project with D-o-H, D-o-T & DNSCrypt v2 support.",
+        "dns_ipv4": [
+          "51.38.83.141"
+        ],
+        "dns_ipv6": [
+          "2001:41d0:801:2000::d64"
+        ],
+        "dns_https": "https://dns.oszx.co/dns-query",
+        "dns_tls": "tls://dns.oszx.co"
+      },
+      {
+        "type": "pumplex",
+        "description": "These servers provide no ad blocking, keep no logs, and have DNSSEC enabled.",
+        "dns_ipv4": [
+          "51.38.82.198"
+        ],
+        "dns_ipv6": [
+          "2001:41d0:801:2000::1b28"
+        ],
+        "dns_https": "https://dns.pumplex.com/dns-query",
+        "dns_tls": "tls://dns.pumplex.com"
+      }
+    ],
+    "dns_count": 2
+  },
+  {
+    "id": 69,
+    "description": "Privacy-First DNS blocks over 140K ads, ad-tracking, malware, and phishing domains. No logging, no ECS, DNSSEC validation, free!",
+    "provider": "Privacy-First DNS​",
+    "dns": [
+      {
+        "type": "singapore-dns-server",
+        "description": "",
+        "dns_ipv4": [
+          "174.138.21.128"
+        ],
+        "dns_ipv6": [
+          "2400:6180:0:d0::5f6e:4001"
+        ],
+        "dns_https": "https://doh.tiar.app/dns-query",
+        "dns_tls": "tls://dot.tiar.app"
+      },
+      {
+        "type": "japan-dns-server",
+        "description": "",
+        "dns_ipv4": [
+          "172.104.93.80"
+        ],
+        "dns_ipv6": [
+          "2400:8902::f03c:91ff:feda:c514"
+        ],
+        "dns_https": "https://jp.tiar.app/dns-query",
+        "dns_tls": "tls://jp.tiar.app"
+      }
+    ],
+    "dns_count": 2
+  },
+  {
+    "id": 70,
+    "description": "Seby DNS is a privacy-focused DNS service provided by Sebastian Schmidt. No logging, DNSSEC validation.",
+    "provider": "Seby DNS​",
+    "dns": [
+      {
+        "type": "dns-server-1",
+        "description": "",
+        "dns_ipv4": [
+          "45.76.113.31"
+        ],
+        "dns_tls": "tls://dot.seby.io"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 71,
+    "description": "BlackMagicc DNS is a personal DNS server located in Vietnam and intended for personal and small-scale use. It features ad blocking, malware/phishing protection, adult content filter, and DNSSEC validation.",
+    "provider": "BlackMagicc DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "103.70.12.129"
+        ],
+        "dns_ipv6": [
+          "2001:df4:4c0:1::399:1"
+        ],
+        "dns_https": "https://rx.techomespace.com/dns-query"
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 72,
+    "description": "LaxrFar DNS is a DNS that is focused on ad blocking, privacy, malware protection and has a strict no-logging policy.",
+    "provider": "LaxrFar DNS​",
+    "dns": [
+      {
+        "type": "default",
+        "dns_ipv4": [
+          "23.176.184.32"
+        ]
+      }
+    ],
+    "dns_count": 1
+  },
+  {
+    "id": 73,
+    "description": "NWPS.fi DNS provides DoH & DoT resolvers with two levels of filtering.",
+    "provider": "NWPS.fi DNS​",
+    "dns": [
+      {
+        "type": "standard-4",
+        "description": "Blocks ads, trackers, and malware",
+        "dns_https": "https://public.ns.nwps.fi/dns-query",
+        "dns_tls": "tls://public.ns.nwps.fi"
+      },
+      {
+        "type": "kids-1",
+        "description": "Kids-friendly filter that also blocks ads, trackers, and malware",
+        "dns_https": "https://kids.ns.nwps.fi/dns-query",
+        "dns_tls": "tls://kids.ns.nwps.fi"
+      }
+    ],
+    "dns_count": 2
+  }
+]
